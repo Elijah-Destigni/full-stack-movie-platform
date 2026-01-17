@@ -1,4 +1,30 @@
 {
+  "name": "full-stack-movie-platform",
+  "version": "1.0.0",
+  "description": "A full-stack movie discovery platform built with React, Node.js, Express, and MongoDB",
+  "author": "Elijah Destigni",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "install-all": "cd movies-api && npm install && cd ../react-movies && npm install",
+    "dev-api": "cd movies-api && npm run dev",
+    "dev-client": "cd react-movies && npm run dev",
+    "start-api": "cd movies-api && npm start",
+    "start-client": "cd react-movies && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Elijah-Destigni/full-stack-movie-platform"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "full-stack",
+    "movie-app",
+    "tmdb-api"
+  ],
   "dependencies": {
     "node-fetch": "^2.7.0"
   }

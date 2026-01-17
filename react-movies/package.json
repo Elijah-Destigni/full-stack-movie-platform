@@ -1,5 +1,6 @@
 {
-  "name": "movies",
+  "name": "full-stack-movie-platform-client",
+  "description": "Frontend React app for Full-Stack Movie Platform",
   "private": true,
   "version": "0.0.0",
   "type": "module",

@@ -1,13 +1,13 @@
 {
-  "name": "tasky-api",
+  "name": "full-stack-movie-platform-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend API for Full-Stack Movie Platform",
   "main": "index.js",
   "scripts": {
     "start": "babel-node index.js",
     "dev": "nodemon --exec npm start"
   },
-  "author": "Edestigni2005",
+  "author": "Elijah Destigni",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.28.5",
